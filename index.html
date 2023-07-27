@@ -51,6 +51,7 @@
 
 body{
     background-color: rgb(139, 139, 255);
+            animation: slide ease 1500ms ;
 }
 
 
@@ -261,7 +262,22 @@ button span::before {
 
 
 
+        @keyframes slide {
 
+            0%{
+                transform: translateX(50vw);
+                opacity: 0;
+
+
+            }
+
+
+            100%{
+                transform: translateX(0vw);
+
+            }
+
+        }
 
 
 
