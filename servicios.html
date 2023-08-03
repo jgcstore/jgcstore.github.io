@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios JGC Shop</title>
+    <link rel="icon" href="Logo-Circulo.png">
+
+</head>
+<body>
+
+    <header>
+        <a href="https://www.instagram.com/jgc.shop/">
+        <img class="circular--square" src="Logo.png"/>
+        </a>
+
+        <a href="https://www.instagram.com/jgc.shop/">
+        <h1 class="siss">Servicios JGC</h1>
+        </a>
+
+        <a href="https://www.instagram.com/jgc.shop/">
+        <img class="circular---square" src="Logo.png"/>
+        </a>
+
+        <br>
+        <br>
+
+
+        <a href="index.html">
+            <h4>Pulsa aqui para volver a la tienda...</h4>
+        </a>
+
+    </header>
+    
+
+
+
+
+
+
+    <section>
+        <!-- Hacking -->
+
+        <div class="producto">
+            <img src="imagen7.jpg" alt="Producto 1" class="img">
+            <h2>Recuperación de Contraseñas ( Instagram )</h2>
+            <p>Simplemente te recupero tu cuenta de Instagram con un método Ético, Seguro y Legal. ( Si no funciona, optamos por utilizar Fuerza Bruta ) </p>
+            <p class="Price">Precio: $5.00</p>
+        </div>
+        <div class="producto">
+            <img src="imagen10.png" alt="Producto 2" class="img">
+            <h2>¡Crea tus Páginas Web con HTML, CSS!</h2>
+            <p>Comprando este producto, estás comprando un servicio de creación de Páginas Web</p>
+            <p class="Price">Precio: $5.00</p>
+        </div>
+
+
+
+
+        <div class="producto">
+
+            <h2>Mucho más</h2>
+            <p>Próximamente...</p>
+            <p class="Price"></p>
+        </div>
+
+
+
+    </section>
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+
+body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(29, 29, 29);
+    }
+    
+header {
+        background-color: #050505;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        border: 3px solid rgb(0, 39, 39);
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+
+    .producto {
+        border: 1px solid #440000;
+        padding: 10px;
+        text-align: center;
+        background-color: #555555;
+    }
+
+
+    li{
+        list-style: none;
+    }
+
+
+    .img{
+
+        width: 7cm;
+        height: 6cm;
+
+    }
+
+
+    .circular--square {
+        border: 3px solid #3b3b3b;
+        border-radius: 50%;
+        position: absolute;
+        width: auto;
+        height: 4cm;
+        margin-left: 7cm;
+        margin-top: 0.2cm;
+
+    }
+
+
+    .circular---square {
+        border: 3px solid #3b3b3b;
+        border-radius: 50%;
+        position: absolute;
+        width: auto;
+        height: 4cm;
+        margin-left: -11cm;
+        margin-top: -4.4cm;
+
+    }
+
+
+
+
+
+
+
+
+    .circular--square:hover {
+        border: 3px solid #3b3b3b;
+        cursor: pointer;
+        opacity: 75%;
+
+    }
+
+
+    .circular---square:hover {
+        border: 3px solid #3b3b3b;
+        cursor: pointer;
+        opacity: 75%;
+
+    }
+
+
+
+
+
+
+
+
+
+    a{
+
+        text-decoration:none;
+        color: beige;
+
+    }
+
+    a:hover{
+        
+        cursor: pointer;
+        color: rgb(148, 148, 148);
+
+    }
+
+
+
+
+    .Price{
+
+        font-size: 50px;
+
+    }
+
+
+    .siss{
+
+        font-size: 70px;
+        text-shadow: -6px -5px 5px #5f0000;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 600px) {
+            .product {
+                flex-direction: column;
+                align-items: center;
+            }
+            .product img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .circular---square{
+                height: 0;
+                width: 0;
+                opacity: 0%;
+            }
+
+            .circular--square{
+                height: 0;
+                width: 0;
+                opacity: 0%;
+            }
+        }
+</style>
+
+
+
+
